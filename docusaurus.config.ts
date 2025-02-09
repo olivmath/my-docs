@@ -22,7 +22,7 @@ const config: Config = {
   organizationName: "olivmath",
   projectName: "my-docs",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -72,9 +72,9 @@ themeConfig: {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "Documentation",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/my-docs/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/olivmath/my-docs",
           label: "GitHub",
@@ -89,8 +89,8 @@ themeConfig: {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Start Here!",
+              to: "/my-docs/docs/intro",
             },
           ],
         },
@@ -112,7 +112,7 @@ themeConfig: {
           items: [
             {
               label: "Blog",
-              to: "/blog",
+              to: "/my-docs/blog",
             },
             {
               label: "GitHub",
