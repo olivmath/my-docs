@@ -1,4 +1,3 @@
-```markdown
 ---
 title: Build a Local Blockchain
 description: Compile, launch, and interact with a single local blockchain node in a development environment.
@@ -231,7 +230,7 @@ Substrate reports asynchronous operation results as events. The Events component
 😉 Finalized. Block hash: 0xa50d3f99fcea8a1611806895aa3f4d4d55fdc4989fbb2148d4856a043d01f808
 
 ## Stop the Local Node
-
+-
 After completing the transfer, you can continue exploring the front-end template or stop the local Substrate node to erase state changes. Since you started the node with the `--dev` option, stopping it will purge all persistent block data, ensuring a clean state for the next start.
 
 To stop the local Substrate node:
